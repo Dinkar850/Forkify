@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html && cp -r static --dist-dir ./dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "staticFiles": {
     "staticPath": "static"
