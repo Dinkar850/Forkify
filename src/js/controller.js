@@ -8,7 +8,8 @@ import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
 // const icons = 'static/icons.svg';
 // import icons from 'static/icons.svg';
-const icons = new URL('../img/icons.svg', import.meta.url);
+// const icons = new URL('../img/icons.svg', import.meta.url);
+const icons = './static/icons.svg';
 
 import 'core-js/stable';
 import { async } from 'regenerator-runtime';

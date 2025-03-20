@@ -3,7 +3,8 @@ import previewView from './previewView.js';
 // import icons from 'url:../../img/icons.svg';
 // const icons = 'static/icons.svg';
 // import icons from 'static/icons.svg';
-const icons = new URL('../../img/icons.svg', import.meta.url);
+// const icons = new URL('../../img/icons.svg', import.meta.url);
+const icons = './static/icons.svg';
 
 class BookmarksView extends View {
   _parentElement = document.querySelector('.bookmarks__list');
