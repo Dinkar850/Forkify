@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html && cp -r static --dist-dir ./dist"
+  },
+  "staticFiles": {
+    "staticPath": "static"
   },
   "author": "Dinkar Gupta",
   "license": "ISC",
@@ -26,6 +29,7 @@
     "core-js": "^3.41.0",
     "dotenv": "^16.4.7",
     "fractional": "^1.0.0",
+    "parcel-plugin-static-files-copy": "^2.6.0",
     "regenerator-runtime": "^0.14.1",
     "sass": "^1.26.10"
   }

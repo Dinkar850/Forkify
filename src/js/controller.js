@@ -6,7 +6,9 @@ import resultsView from './views/resultsView.js';
 import paginationView from './views/paginationView.js';
 import bookmarksView from './views/bookmarksView.js';
 import addRecipeView from './views/addRecipeView.js';
-import icons from 'url:../img/icons.svg';
+// const icons = 'static/icons.svg';
+// import icons from 'static/icons.svg';
+const icons = new URL('../img/icons.svg', import.meta.url);
 
 import 'core-js/stable';
 import { async } from 'regenerator-runtime';

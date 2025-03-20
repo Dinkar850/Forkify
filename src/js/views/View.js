@@ -1,5 +1,7 @@
-import icons from 'url:../../img/icons.svg';
-// const icons = '/icons.svg';
+// import icons from 'url:../../img/icons.svg';
+// const icons = 'static/icons.svg';
+// import icons from 'static/icons.svg';
+const icons = new URL('../../img/icons.svg', import.meta.url);
 
 export default class View {
   _data;
