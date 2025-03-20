@@ -22,8 +22,10 @@
     "process": "^0.11.10",
     "stream-browserify": "^3.0.0",
     "string_decoder": "^1.3.0",
-    "svgo": "^3.3.2",
     "vm-browserify": "^1.1.2"
+  },
+  "parcel": {
+    "svgo": false
   },
   "dependencies": {
     "core-js": "^3.41.0",

@@ -1,5 +1,5 @@
 import View from './View.js';
-import icons from 'url:../../img/icons.svg';
+import icons from 'url:../../img/icons.svg?raw';
 // const icons = 'static/icons.svg';
 // import icons from 'static/icons.svg';
 // const icons = new URL('../../img/icons.svg', import.meta.url);

@@ -1,0 +1,6 @@
+plugins:
+  - name: removeUnknownsAndDefaults
+    params:
+      keepDataAttrs: false
+  - name: removeUselessDefs
+    active: false
