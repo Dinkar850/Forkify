@@ -4,7 +4,7 @@ import icons from 'url:../../img/icons.svg';
 // import icons from 'static/icons.svg';
 // const icons = new URL('../../img/icons.svg', import.meta.url);
 // const icons = './static/icons.svg';
-import icons from 'url:../../img/icons.svg';
+// import icons from 'url:../../img/icons.svg';
 
 class PreviewView extends View {
   _parentElement = '';
